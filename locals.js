@@ -4,7 +4,7 @@ I18N.conf = {
     /**
      * 要翻译的页面正则
      */
-    rePageClass: /\b(vis-public|page-(responsive|profile|account|new-repo|create-org)|homepage|signup|session-authentication|oauth)\b/,
+    rePageClass: /\b(vis-public|page-(profile|account|new-repo|responsive|create-org)|homepage|signup|session-authentication|oauth)\b/,
 
     /**
      * 匹配 pathname 页面的正则
@@ -50,8 +50,9 @@ I18N.zh = {
         ],
     },
 
-    "pubilc": { // 公共区域翻译
-        "static": { // 静态翻译
+    // 公共翻译
+    "pubilc": { 
+        "static": {
 
             // 最上方页面选项
             "Pull requests": "拉取请求",
@@ -251,9 +252,9 @@ I18N.zh = {
         ],
     },
 
-    "page-responsive": { // 首页
-        "static": { // 静态翻译
-
+    // 登录GITHUB之后的网页
+    "page-responsive": { 
+        "static": { 
             // 左侧栏
             "Repositories": "你的仓库",
             "New": "新建",
@@ -272,95 +273,29 @@ I18N.zh = {
             "Subscribe to your news feed": "订阅",
             "ProTip!": "提示",
 
-
             //点击新建组织
             "Choose a plan": "选择其中一项",
             "Pick a plan for your team": "为你的团队选择一个计划",
             "Free": "免费",
             "The basics of GitHub for every team": "每个Github团队都有的基本功能",
-            "Unlimited public/private repositories": "无限的公私仓库",
+            "Unlimited public/private repositories": "无限的公/私仓库",
             "Unlimited collaborators": "无限的合作者",
             "2,000 Actions minutes/month": "每个月2000次操作",
             "Free for public repositories": "公有仓库免费",
             "500MB of GitHub Packages": "500M的Github包",
             "Community Support": "社区支持",
             "Join for free": "免费创建",
-
             "Team": "团队",
             "Enterprise": "专业",
-
-
-
-            // 新手帮助
-            "Learn Git and GitHub without any code!": "了解 Git 和 GitHub 无需任何代码！",
-            "Using the Hello World guide, you’ll create a repository, start a branch,": "使用 Hello World 指南，您将创建一个仓库，开始一个分支，",
-            "write comments, and open a pull request.": "写评论，并创建一个拉取请求。(教程内容就不翻译了...)",
-            "Let's get started!": "让我们开始吧！",
-            "Hide this notice forever": "永久的隐藏该信息",
-
-            "Welcome to GitHub! What’s next?": "欢迎来到 GitHub！下一步干什么？",
-            "Create a repository": "创建一个仓库",
-            "Tell us about yourself": "介绍一下你自己",
-            "Browse interesting repositories": "浏览有趣资料库",
-            "on Twitter": "在 Twitter 上",
-
-            "You don’t have any repositories yet!": "您目前还没有任何仓库！",
-            "Create your first repository": "创建您的第一个仓库",
-            "or": "或者",
-            "learn more about Git and GitHub": "学习更多关于 Git 和 GitHub 知识",
-
-            // 已有仓库的项目
-            "Repositories you contribute to": "您贡献过的仓库",
-            "Your repositories": "您的仓库",
-            "Find a repository…": "搜索仓库…",
-            "All": "全部",
-            "Public": "公共",
-            "Private": "私有",
-            "Sources": "源码",
-            "Forks": "派生",
-
-            "View": "查看",
-            "new broadcast": "条新公告",
-            "new broadcasts": "条新公告",
-
-            // 动态 状态词
-            "starred": "赞了",
-            "forked": "派生了",
-            "forked from": "派生至",
-            "created repository": "创建了仓库",
-            "opened pull request": "发起了拉取请求",
-            "commented on pull request": "评论了拉取请求",
-            "opened issue": "新建问题",
-            "close issue": "关闭问题",
-            "added": "添加了",
-            "to": "到",
-            "pushed to": "推送了",
-            "closed issue": "关闭了问题",
-            "merged pull request": "合并了拉取请求",
-            "commented on issue": "提交了评论",
-
-            "More": "更多",
-
-
-            "Switch dashboard context": "切换默认身份",
-            "Manage organizations": "管理组织",
-            "Create organization": "创建组织",
-
-            // 首次加入组织通知
-            "You’ve been added to the": "您已经被添加到",
-            "organization!": "组织！",
-            "Here are some quick tips for a first-time organization member.": "以下是首次加入组织的一些提示。",
-            "Use the switch context button in the upper left corner of this page to switch between your personal context (": "使用页面左上角的切换身份按钮，您可以在(",
-            ") and organizations you are a member of.": ")和组织身份之间进行切换。",
-            "After you switch contexts you’ll see an organization-focused dashboard that lists out organization repositories and activities.": "当您切换身份，您会看到一个组织为中心的页面，其中列出了组织库和活动。",
         },
         "regexp": [ // 正则翻译
             [/Show (\d+) more repositories…/, "显示 $1 个更多的仓库…"],
         ],
     },
 
-    "page-profile": { // 个人首页
-        "static": { // 静态翻译
+    // 个人主页
+    "page-profile": { 
+        "static": { 
             "Updating your profile with your name, location, and a profile picture helps other GitHub users get to know you.": "更新您的资料信息包括姓名，地址，头像等资料，让其他用户更容易的了解您。",
 
             "Overview": "概述",

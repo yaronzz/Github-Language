@@ -1,26 +1,24 @@
 // ==UserScript==
-// @name         GitHub 汉化插件
-// @description  汉化 GitHub 界面的部分菜单及内容。
-// @copyright    2016, 楼教主 (http://www.52cik.com/)
-// @icon         https://assets-cdn.github.com/pinned-octocat.svg
-// @version      1.6.4
-// @author       楼教主
+// @name         GitHub语言设置
+// @description  GitHub汉化
+// @copyright    2020 Yaronzz
+// @icon         https://github.githubassets.com/favicon.ico
+// @version      1.0.1
+// @author       yaronzz
 // @license      MIT
-// @homepageURL  https://github.com/52cik/github-hans
 // @match        http://*.github.com/*
 // @match        https://*.github.com/*
-// @require      https://52cik.github.io/github-hans/locals.js?v1.6.4
+// @require      https://raw.githubusercontent.com/yaronzz/Github-Language/master/locals.js
+// @homepageURL  https://github.com/yaronzz/Github-Language
 // @run-at       document-end
 // @grant        none
 // ==/UserScript==
+
 
 (function (window, document, undefined) {
     'use strict';
 
     var lang = 'zh'; // 中文
-
-    // 2016-04-18 github 将 jquery 以 amd 加载，不暴露到全局了。
-    // var $ = require('github/jquery')['default'];
 
     // 要翻译的页面
     var page = getPage();
