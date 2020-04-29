@@ -268,9 +268,10 @@ I18N.zh = {
 
             //底下栏
             "Subscribe to your news feed": "订阅",
-            "ProTip! The feed shows you events from people you follow and repositories you watch.": "提示！该栏显示了你关注的人和仓库的动态信息。",
+            "ProTip!": "提示",
+            "        The feed shows you events from people you ": "该栏显示了你关注的人和仓库的动态信息。",
             
-            
+
             // 新手帮助
             "Learn Git and GitHub without any code!": "了解 Git 和 GitHub 无需任何代码！",
             "Using the Hello World guide, you’ll create a repository, start a branch,": "使用 Hello World 指南，您将创建一个仓库，开始一个分支，",
