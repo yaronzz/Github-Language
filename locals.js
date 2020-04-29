@@ -53,9 +53,6 @@ I18N.zh = {
     "pubilc": { // 公共区域翻译
         "static": { // 静态翻译
 
-            // 搜索框
-            "Search or jump to...": "搜索或跳转到",
-
             // 最上方页面选项
             "Pull requests": "拉取请求",
             "Issues": "问题",
@@ -81,6 +78,9 @@ I18N.zh = {
             "New gist": "新建代码片段",
             "New organization": "新建组织",
             "New project": "新建项目面板",
+
+            // 词汇
+            "Repositories": "仓库",
 
 
 
