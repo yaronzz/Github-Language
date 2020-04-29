@@ -243,9 +243,16 @@ I18N.zh = {
         ],
     },
 
-    "page-responsive": { // 已登录的首页
+    "page-responsive": { // 首页
         "static": { // 静态翻译
-            "Repositories": "仓库",
+
+            //右侧栏
+            "Repositories": "你的仓库",
+            "New": "新建",
+            "Show more": "显示更多",
+            "Loding more": "正在加载",
+
+
 
             // 新手帮助
             "Learn Git and GitHub without any code!": "了解 Git 和 GitHub 无需任何代码！",
