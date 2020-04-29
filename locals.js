@@ -466,6 +466,7 @@ I18N.zh = {
             [/(\d+) total/, "$1 次"],
             [/(\d+) days?/, "$1 天"],
             [/([\d,]+) contributions in the last year/, "$1 次贡献在过去的一年中"],
+            [/([\d,]+) contributions in ([\d,] +)/, "$1 次贡献在 $2 年"],
         ],
     },
 
