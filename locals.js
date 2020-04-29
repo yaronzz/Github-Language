@@ -251,8 +251,8 @@ I18N.zh = {
             "New": "新建",
             "Show more": "显示更多",
 
-            "Working with a team?": "以团队方式工作",
-            "GitHub is built for collaboration. Set up an organization to improve the way your team works together, and get access to more features": "GitHub是为团队协作而构建的。建立组织以改善团队合作的方式，并获得更多功能",
+            "Working with a team?": "以团队方式工作?",
+            "GitHub is built for collaboration. Set up an organization to improve the way your team works together, and get access to more features.": "GitHub是为团队协作而构建的。建立组织以改善团队合作的方式，并获得更多功能",
             "Create an organization": "新建组织",
 
             //右侧栏
