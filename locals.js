@@ -79,16 +79,30 @@ I18N.zh = {
             "New organization": "新建组织",
             "New project": "新建项目面板",
 
-            // // 词汇
-            // "Repositories": "仓库",
+
+            // 底层栏
+            "Blog": "博客",
+            "About": "关于",
+            "Shop": "商店",
+            "Contact GitHub": "联系GitHub",
+            "Pricing": "定价",
+            "Training": "培训",
+            "Status": "状态",
+            "Security": "安全",
+            "Terms": "条款",
+            "Privacy": "隐私",
+            //// "Help": "帮助",
 
 
 
+
+
+            "Updated": "更新",
+            "Contact": "联系",
             // 未登录部分
             "Personal": "个人",
             "Open source": "开源",
             "Business": "商业",
-            "Pricing": "定价",
             "Support": "支持",
             "Sign in": "登录",
             "Sign up": "注册",
@@ -134,16 +148,7 @@ I18N.zh = {
             "(Forgot password)": "(忘记密码)",
             "Confirm password": "继续",
 
-            "Updated": "更新",
-            "Terms": "条款",
-            "Privacy": "隐私",
-            "Security": "安全",
-            "Contact": "联系",
-            "Status": "状态",
-            "Training": "培训",
-            "Shop": "商店",
-            "Blog": "博客",
-            "About": "关于",
+            
 
             // 评论编辑器翻译
             "Write": "编辑",
@@ -252,19 +257,17 @@ I18N.zh = {
             "Show more": "显示更多",
 
             "Working with a team?": "以团队方式工作?",
-            "GitHub is built for collaboration. Set up an organization to improve the way your team works together, and get access to more features.": "GitHub是为团队协作而构建的。建立组织以改善团队合作的方式，并获得更多功能",
+            "GitHub is built for collaboration. Set up an organization to improve the way your team works together, and get access to more features.": "GitHub是为团队协作而构建的。建立组织来实现团队合作，并获得更多功能!",
             "Create an organization": "新建组织",
 
             //右侧栏
             "Explore repositories": "浏览别人的仓库",
-            "Explore more": "浏览更多",
 
             //中央栏
             "starred": "点赞了",
             "forked": "派生了",
             "Unstar": "取消赞",
             "started following you": "开始关注你",
-            "More": "更多",
 
             //底下栏
             "Subscribe to your news feed": "订阅",
