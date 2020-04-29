@@ -79,8 +79,8 @@ I18N.zh = {
             "New organization": "新建组织",
             "New project": "新建项目面板",
 
-            // 词汇
-            "Repositories": "仓库",
+            // // 词汇
+            // "Repositories": "仓库",
 
 
 
@@ -245,6 +245,9 @@ I18N.zh = {
 
     "page-dashboard": { // 已登录的首页
         "static": { // 静态翻译
+
+            "Repositories": "仓库22",
+
             // 新手帮助
             "Learn Git and GitHub without any code!": "了解 Git 和 GitHub 无需任何代码！",
             "Using the Hello World guide, you’ll create a repository, start a branch,": "使用 Hello World 指南，您将创建一个仓库，开始一个分支，",
