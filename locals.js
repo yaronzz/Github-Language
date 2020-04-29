@@ -95,8 +95,71 @@ I18N.zh = {
             "Privacy": "隐私",
             //// "Help": "帮助",
 
+            //常用词汇
             "Updated": "更新",
             "Contact": "联系",
+            "Search": "搜索",
+            "New": "新建",
+            "Filters": "过滤",
+            "TOPICS": "主题",
+
+            "Repositories": "仓库",
+            "REPOSITORIES": "仓库",
+            "Projects": "项目",
+            "Packages": "包",
+
+            "Star": "点赞",
+            "Stars": "点赞",
+            "Unstar": "取消点赞",
+
+            "Followers": "粉丝",
+            "Following": "关注",
+            "Follow": "关注",
+            "Unfollow": "取消关注",
+
+            "Watch": "关注",
+            "Unwatch": "取消关注",
+            "Fork": "派生",
+            "Forks": "派生",
+
+            "Previous": "上一页",
+            "Next": "下一页",
+
+            "Sort": "排序",
+            "Languages": "语言",
+
+            "starred": "赞了",
+            "forked": "派生了",
+
+            "All": "全部",
+            "Public": "公共",
+            "Private": "私有",
+            "Sources": "源码",
+            "Archived": "归档",
+            "Mirrors": "镜像",
+
+            "Type": "类型:",
+            "Type:": "类型:",
+            "Language": "语言",
+            "Language:": "语言:",
+            "Select type:": "选择类型:",
+            "Select type": "选择类型",
+            "Select language:": "选择语言:",
+            "Select language": "选择语言",
+            "All languages": "所有语言",
+
+            "Sort": "排序",
+            "Sort by": "排序选项",
+            "Recently starred": "最近关注的",
+            "Recently active": "最近活动的",
+            "Most stars": "最多赞的",
+            "Newest": "最新的",
+            "Oldest": "最老的",
+            "Recently updated": "最近更新的",
+            "Least recently updated": "最久更新的",
+            "Name": "按名字排序",
+            "Learn More": "查看更多",
+
             // 未登录部分
             "Personal": "个人",
             "Open source": "开源",
@@ -104,14 +167,8 @@ I18N.zh = {
             "Support": "支持",
             "Sign in": "登录",
             "Sign up": "注册",
-
             "Search GitHub": "GitHub 一下，你就知道",
             "This repository": "当前仓库",
-            "Search": "搜索",
-
-
-
-
             "Gist": "代码片段",
             "Your dashboard": "返回首页",
 
@@ -120,19 +177,9 @@ I18N.zh = {
             "Create new…": "新建…",
             "View profile and more": "查看更多信息",
 
-
-
-
-
-
             "Integrations": "集成",
             "Showcases": "展柜",
             "Trending": "趋势",
-            "Stars": "点赞",
-
-
-            "Previous": "上一页",
-            "Next": "下一页",
 
             "Period:": "最近:",
             "Filter activity": "选择时间",
@@ -145,8 +192,6 @@ I18N.zh = {
             "Password": "密码",
             "(Forgot password)": "(忘记密码)",
             "Confirm password": "继续",
-
-
 
             // 评论编辑器翻译
             "Write": "编辑",
@@ -177,16 +222,6 @@ I18N.zh = {
             "Close and comment": "提交并关闭",
             "Reopen and comment": "提交并重新打开",
             "Reopen issue": "重新打开问题",
-
-            // 公共动作词
-            "Followers": "粉丝",
-            "Follow": "关注",
-            "Unfollow": "取消关注",
-            "Watch": "关注",
-            "Unwatch": "取消关注",
-            "Star": "点赞",
-            "Unstar": "取消点赞",
-            "Fork": "派生",
 
             // 邮箱验证提示
             "Please verify your email address to access all of GitHub's features.": "请验证您的电子邮件地址以便开启所有 GitHub 功能。",
@@ -277,19 +312,17 @@ I18N.zh = {
     "page-responsive": {
         "static": {
             // 左侧栏
-            "Repositories": "仓库",
-            "New": "新建",
             "Show more": "显示更多",
             "Working with a team?": "以团队方式工作?",
             "GitHub is built for collaboration. Set up an organization to improve the way your team works together, and get access to more features.": "GitHub是为团队协作而构建的。建立组织来实现团队合作，并获得更多功能!",
             "Create an organization": "新建组织",
+
             // 右侧栏
             "Explore repositories": "浏览别人的仓库",
+
             // 中央栏
-            "starred": "点赞了",
-            "forked": "派生了",
-            "Unstar": "取消赞",
             "started following you": "开始关注你",
+
             // 底下栏
             "Subscribe to your news feed": "订阅",
             "ProTip!": "提示",
@@ -309,8 +342,6 @@ I18N.zh = {
             "Team": "团队",
             "Enterprise": "专业",
 
-
-
         },
         "regexp": [ // 正则翻译
             [/Show (\d+) more repositories…/, "显示 $1 个更多的仓库…"],
@@ -322,16 +353,9 @@ I18N.zh = {
         "static": {
             // 顶部页面tab选择
             "Overview": "概述",
-            "Repositories": "仓库",
-            "Projects": "项目面板",
-            "Packages": "包",
-            "Stars": "点赞",
-            "Followers": "粉丝",
-            "Following": "关注",
             // 左侧
             "Change your avatar": "修改头像",
             "Edit profile": "修改设置",
-
             // 概述tab
             "Popular repositories": "流行的仓库",
             "Customize your pins": "自定义显示的仓库",
@@ -343,7 +367,6 @@ I18N.zh = {
             "First repository": "第一个仓库",
             "Joined GitHub": "刚注册 GitHub",
             "Show more activity": "显示更多",
-            
             // 其他
             "Jump to": "跳转到",
             "Joined on": "注册于",
@@ -353,13 +376,11 @@ I18N.zh = {
 
             "Public activity": "动态",
             "Repositories contributed to": "贡献过的仓库",
-
             "Show:": "显示:",
             "Your repositories": "您的仓库",
             "Repositories you contribute to": "您贡献过的仓库",
             "Save pinned repositories": "保存固定仓库",
 
-            
 
 
 
@@ -394,8 +415,6 @@ I18N.zh = {
             "Issues reported": "问题报告",
 
             // 动态 状态词
-            "starred": "赞了",
-            "forked": "收藏了",
             "forked from": "收藏至",
             "created repository": "创建了仓库",
             "opened pull request": "发起了拉取请求",
@@ -412,15 +431,6 @@ I18N.zh = {
             // 仓库 tab
             "Find a repository…": "搜索仓库…",
             "Select type": "选择类型",
-            "All": "全部",
-            "Public": "公共",
-            "Private": "私有",
-            "Sources": "源码",
-            "Forks": "派生",
-            "Archived": "归档",
-            "Mirrors": "镜像",
-            "New": "新建",
-
             "Block or report": "阻止或举报",
             "Learn more about blocking a user.": "查看详细的阻止用户信息。",
             "Block or report this user": "阻止或举报该用户",
@@ -431,25 +441,7 @@ I18N.zh = {
 
             "Search repositories…": "搜索这些查库…",
             "Search starred repositories…": "搜索点赞的仓库…",
-            "Type:": "类型:",
-            "Select type:": "选择类型:",
-            "Language:": "语言:",
-            "Language": "语言",
-            "Select language": "选择语言",
-            "All languages": "所有语言",
-
-            "Sort": "排序",
-            "Sort by": "排序选项",
-            "Recently starred": "最近关注的",
-            "Recently active": "最近活动的",
-            "Most stars": "最多赞的",
-            "Unstar": "取消点赞",
-            "Newest": "最新的",
-            "Oldest": "最老的",
-            "Recently updated": "最近更新的",
-            "Least recently updated": "最久更新的",
-            "Name": "按名字排序",
-            "Learn More": "查看更多",
+            
             "You don't have any projects yet.": "你还没创建任何项目.",
 
         },
@@ -466,7 +458,6 @@ I18N.zh = {
             [/(\d+) total/, "$1 次"],
             [/(\d+) days?/, "$1 天"],
             [/([\d,]+) contributions in the last year/, "$1 次贡献在过去的一年中"],
-            [/([\d,]+) contributions in ([\d,] +)/, "$1 次贡献在 $2 年"],
         ],
     },
 
