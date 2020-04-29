@@ -4,7 +4,7 @@ I18N.conf = {
     /**
      * 要翻译的页面正则
      */
-    rePageClass: /\b(vis-public|page-(profile|account|new-repo|responsive|create-org)|homepage|signup|session-authentication|oauth)\b/,
+    rePageClass: /\b(vis-public|page-(responsive|profile|account|new-repo|create-org)|homepage|signup|session-authentication|oauth)\b/,
 
     /**
      * 匹配 pathname 页面的正则
@@ -295,7 +295,7 @@ I18N.zh = {
 
     // 个人主页
     "page-profile": { 
-        "static": { 
+        "static": { // 静态翻译
             "Updating your profile with your name, location, and a profile picture helps other GitHub users get to know you.": "更新您的资料信息包括姓名，地址，头像等资料，让其他用户更容易的了解您。",
 
             "Overview": "概述",
