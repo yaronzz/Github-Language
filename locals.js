@@ -4,7 +4,7 @@ I18N.conf = {
     /**
      * 要翻译的页面正则
      */
-    rePageClass: /\b(page-responsive page-profile|vis-public|page-(responsive|profile|account|new-repo|create-org)|homepage|signup|session-authentication|oauth)\b/,
+    rePageClass: /\b(page-responsive page-profile|vis-public|page-(responsive|account|new-repo|create-org)|homepage|signup|session-authentication|oauth)\b/,
 
     /**
      * 匹配 pathname 页面的正则
@@ -44,7 +44,7 @@ I18N.conf = {
 
 I18N.zh = {
     "title": { // 标题翻译
-        "static": { // 静态翻译
+        "static": { 
         },
         "regexp": [ // 正则翻译
         ],
@@ -298,9 +298,8 @@ I18N.zh = {
 
     // 个人主页
     "page-responsive page-profile": { 
-        "static": { // 静态翻译
-            "Updating your profile with your name, location, and a profile picture helps other GitHub users get to know you.": "更新您的资料信息包括姓名，地址，头像等资料，让其他用户更容易的了解您。",
-
+        "static": { 
+            // 顶部页面tab选择
             "Overview": "概述",
             "Repositories": "仓库",
             "Projects": "项目面板",
@@ -308,19 +307,27 @@ I18N.zh = {
             "Stars": "点赞",
             "Followers": "粉丝",
             "Following": "关注",
-
-
-
-
-            "Joined on": "注册于",
+            // 左侧
             "Change your avatar": "修改头像",
+            "Edit profile": "修改设置",
+
+            // 概述tab
+            "Popular repositories": "流行的仓库",
+            "Customize your pins": "自定义你的图钉",
+            "Edit pinned items": "编辑要显示的图钉项",
+            "Select up to six public repositories or gists you’d like to show.": "最多选择6个你要显示的公有仓库。",
+            "Save pins": "保存图钉", 
+            "Pinned": "固定显示的仓库",
+
+
+            
+            
+            "Joined on": "注册于",
             "Organizations": "组织",
             "Contributions": "贡献",
             "Public contributions": "贡献",
             
             "Public activity": "动态",
-            "Edit profile": "修改设置",
-            "Popular repositories": "流行的仓库",
             "Pinned repositories": "固定的仓库",
             "Customize your pinned repositories": "自定义您的固定仓库",
             "Repositories contributed to": "贡献过的仓库",
