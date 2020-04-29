@@ -59,6 +59,8 @@ I18N.zh = {
             "Issues": "问题",
             "Marketplace": "广场",
             "Explore": "探索",
+            "Explore": "探索",
+            "Search or jump to…": "搜索或跳转至…",
 
             // 右上头像点击
             "Signed in as": "你好",
