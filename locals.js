@@ -190,6 +190,33 @@ I18N.zh = {
             "Please verify your email address to access all of GitHub's features.": "请验证您的电子邮件地址以便开启所有 GitHub 功能。",
             "Configure email settings": "修改电子邮件设置",
             "Your email was verified.": "您的邮件地址验证成功！",
+
+
+            //月份
+            "January": "一月",
+            "February": "二月",
+            "March": "三月",
+            "April": "四月",
+            "May": "五月",
+            "June": "六月",
+            "July": "七月",
+            "August": "八月",
+            "September": "九月",
+            "October": "十月",
+            "November": "十一月",
+            "December": "十二月",
+            "Jan": "1月",
+            "Feb": "2月",
+            "Mar": "3月",
+            "Apr": "4月",
+            "May": "5月",
+            "Jun": "6月",
+            "Jul": "7月",
+            "Aug": "8月",
+            "Sep": "9月",
+            "Oct": "10月",
+            "Nov": "11月",
+            "Dec": "12月",
         },
         "regexp": [ // 正则翻译 (公共区域正则会二次调用翻译，为了弥补部分翻译的情况)
             /**
@@ -309,33 +336,14 @@ I18N.zh = {
             "Pinned": "固定显示的仓库",
             "Contribution settings": "贡献设置",
             "Contribution activity": "贡献信息",
-            "January": "一月",
-            "February": "二月",
-            "March": "三月",
-            "April": "四月",
-            "May": "五月",
-            "June": "六月",
-            "July": "七月",
-            "August": "八月",
-            "September": "九月",
-            "October": "十月",
-            "November": "十一月",
-            "December": "十二月",
-
-
-
-
-
-            // 其他
-            "Jump to": "跳转到",
             "First pull request": "第一次拉取请求",
             "First issue": "第一次提问",
             "First repository": "第一个仓库",
             "Joined GitHub": "刚注册 GitHub",
             "Show more activity": "显示更多",
-
-
-
+            
+            // 其他
+            "Jump to": "跳转到",
             "Joined on": "注册于",
             "Organizations": "组织",
             "Contributions": "贡献",
@@ -349,18 +357,7 @@ I18N.zh = {
             "Repositories you contribute to": "您贡献过的仓库",
             "Save pinned repositories": "保存固定仓库",
 
-            "Jan": "1月",
-            "Feb": "2月",
-            "Mar": "3月",
-            "Apr": "4月",
-            "May": "5月",
-            "Jun": "6月",
-            "Jul": "7月",
-            "Aug": "8月",
-            "Sep": "9月",
-            "Oct": "10月",
-            "Nov": "11月",
-            "Dec": "12月",
+            
 
 
 
@@ -412,11 +409,13 @@ I18N.zh = {
 
             // 仓库 tab
             "Find a repository…": "搜索仓库…",
+            "Select type": "选择类型",
             "All": "全部",
             "Public": "公共",
             "Private": "私有",
             "Sources": "源码",
             "Forks": "派生",
+            "Archived": "归档",
             "Mirrors": "镜像",
             "New": "新建",
 
@@ -433,15 +432,23 @@ I18N.zh = {
             "Type:": "类型:",
             "Select type:": "选择类型:",
             "Language:": "语言:",
-            "Select language:": "选择语言:",
+            "Language": "语言",
+            "Select language": "选择语言",
             "All languages": "所有语言",
 
-            "Sort:": "排序:",
-            "Sort options": "排序选项",
+            "Sort": "排序",
+            "Sort by": "排序选项",
             "Recently starred": "最近关注的",
             "Recently active": "最近活动的",
             "Most stars": "最多赞的",
             "Unstar": "取消点赞",
+            "Newest": "最新的",
+            "Oldest": "最老的",
+            "Recently updated": "最近更新的",
+            "Least recently updated": "最久更新的",
+            "Name": "按名字排序",
+            "Learn More": "查看更多",
+            "You don't have any projects yet.": "你还没创建任何项目.",
 
         },
         "regexp": [ // 正则翻译
