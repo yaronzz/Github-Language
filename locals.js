@@ -52,6 +52,38 @@ I18N.zh = {
 
     "pubilc": { // 公共区域翻译
         "static": { // 静态翻译
+
+            // 搜索框
+            "Search or jump to": "搜索或跳转到",
+
+            // 最上方页面选项
+            "Pull Requests": "拉取请求",
+            "Issues": "问题",
+            "Marketplace": "广场",
+            "Explore": "探索",
+
+            // 右上头像点击
+            "Signed in as": "你好",
+            "Set status": "设置状态",
+            "Your profile": "你的主页",
+            "Your repositories": "你的仓库",
+            "Your projects": "你的项目面板",
+            "Your stars": "你的点赞",
+            "Your gists": "你的代码片段",
+            "Feature preview": "功能预览",
+            "Help": "帮助",
+            "Settings": "设置",
+            "Sign out": "退出",
+
+            // 右上角+号点击
+            "New repository": "新建仓库",
+            "Import repository": "导入仓库",
+            "New gist": "新建代码片段",
+            "New organization": "新建组织",
+            "New project": "新建项目面板",
+
+
+
             // 未登录部分
             "Personal": "个人",
             "Open source": "开源",
@@ -65,10 +97,9 @@ I18N.zh = {
             "This repository": "当前仓库",
             "Search": "搜索",
 
-            "Pull Requests": "拉取请求",
-            "Pull requests": "拉取请求",
-            "Issues": "问题",
-            "Marketplace": "广场",
+            
+
+
             "Gist": "代码片段",
             "Your dashboard": "返回首页",
 
@@ -77,25 +108,15 @@ I18N.zh = {
             "Create new…": "新建…",
             "View profile and more": "查看更多信息",
 
-            "New repository": "新建仓库",
-            "New organization": "新建组织",
-            "Import repository": "导入仓库",
-            "New gist": "新建代码片段",
-            "New issue": "新建问题",
+            
 
-            "Signed in as": "您好",
-            "Your profile": "您的主页",
-            "Your stars": "点赞的项目",
-            "Your gists": "您的代码片段",
-            "Explore": "探索",
+            
+
+
             "Integrations": "集成",
-            "Help": "帮助",
-            "Settings": "设置",
-            "Sign out": "退出",
-
             "Showcases": "展柜",
             "Trending": "趋势",
-            "Stars": "已赞",
+            "Stars": "点赞",
 
 
             "Previous": "上一页",
@@ -303,6 +324,8 @@ I18N.zh = {
             "Stars": "点赞",
             "Followers": "粉丝",
             "Following": "关注",
+
+
 
 
             "Joined on": "注册于",
