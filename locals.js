@@ -198,7 +198,7 @@ I18N.zh = {
             // 仓库tab
             "Find a repository…": "搜索仓库…",
             "Type:": "类型:",
-            "select type": "选择类型",
+            "Select type": "选择类型",
             "All": "全部",
             "Public": "公共",
             "Private": "私有",
@@ -209,9 +209,20 @@ I18N.zh = {
             "Language:": "语言:",
             "Select language": "选择语言",
             "New": "新建",
-
             "Star": "点赞",
             "Unstar": "取消点赞",
+
+            //项目面板tab
+            // // "New project": "新建",
+            "Learn More": "了解更多",
+            "You don't have any projects yet.": "你还没有创建项目面板.",
+            "Sort": "排序",
+            "Sort by": "排序规则",
+            "Newest": "新建的",
+            "Oldest": "最老的",
+            "Recently updated": "最近更新的",
+            "Least recently updated": "很久以前更新的",
+            "Name": "以名称为准",
 
 
             "Joined on": "注册于",
