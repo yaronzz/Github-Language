@@ -222,7 +222,7 @@ I18N.zh = {
         ],
     },
 
-    "page-responsive": { // 已登录的首页
+    "page-dashboard": { // 已登录的首页
         "static": { // 静态翻译
             // 新手帮助
             "Learn Git and GitHub without any code!": "了解 Git 和 GitHub 无需任何代码！",
@@ -296,15 +296,21 @@ I18N.zh = {
         "static": { // 静态翻译
             "Updating your profile with your name, location, and a profile picture helps other GitHub users get to know you.": "更新您的资料信息包括姓名，地址，头像等资料，让其他用户更容易的了解您。",
 
+            "Overview": "概述",
+            "Repositories": "仓库",
+            "Projects": "项目面板",
+            "Packages": "包",
+            "Stars": "点赞",
+            "Followers": "粉丝",
+            "Following": "关注",
+
+
             "Joined on": "注册于",
             "Change your avatar": "修改头像",
-            "Starred": "赞了",
-            "Following": "关注",
             "Organizations": "组织",
             "Contributions": "贡献",
             "Public contributions": "贡献",
-            "Overview": "概述",
-            "Repositories": "仓库",
+            
             "Public activity": "动态",
             "Edit profile": "修改设置",
             "Popular repositories": "流行的仓库",
