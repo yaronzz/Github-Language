@@ -65,8 +65,8 @@ I18N.zh = {
             "This repository": "当前仓库",
             "Search": "搜索",
 
-            "Pull Requests": "拉取请求",
-            "Pull requests": "拉取请求",
+            "Pull Requests": "拉取请求11",
+            "Pull requests": "拉取请求11",
             "Issues": "问题",
             "Marketplace": "广场",
             "Gist": "代码片段",
