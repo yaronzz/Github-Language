@@ -53,8 +53,7 @@ I18N.zh = {
     // 公共翻译
     "pubilc": { 
         "static": {
-
-            // 最上方页面选项
+            // 最上方页面tab选项
             "Pull requests": "拉取请求",
             "Issues": "问题",
             "Marketplace": "广场",
@@ -92,57 +91,12 @@ I18N.zh = {
             "Terms": "条款",
             "Privacy": "隐私",
             //// "Help": "帮助",
+
+            //时间
+            "yesterday": "昨天",
+            "days ago": "天前",
         },
-        "regexp": [ // 正则翻译 (公共区域正则会二次调用翻译，为了弥补部分翻译的情况)
-            /**
-             * 匹配时间格式
-             *
-             * Mar 19, 2015 – Mar 19, 2016
-             * January 26 – March 19
-             * March 26
-             *
-             * 不知道是否稳定, 暂时先试用着. 2016-03-19 20:46:45
-             */
-            [/(Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May(?:)?|Jun(?:e)?|Jul(?:y)?|Aug(?:ust)?|Sep(?:tember)?|Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?) (\d+)(?:, (\d+)|)/g, function (all, month, date, year) {
-                var monthKey = {
-                    "Jan": "1月",
-                    "Feb": "2月",
-                    "Mar": "3月",
-                    "Apr": "4月",
-                    "May": "5月",
-                    "Jun": "6月",
-                    "Jul": "7月",
-                    "Aug": "8月",
-                    "Sep": "9月",
-                    "Oct": "10月",
-                    "Nov": "11月",
-                    "Dec": "12月"
-                };
-                return (year ? year + '年' : '') + monthKey[month.substring(0, 3)] + date + '日';
-            }],
-            /**
-             * 相对时间格式处理
-             */
-            [/just now|(an?|\d+) (second|minute|hour|day|month|year)s? ago/, function (m, d, t) {
-                if (m === 'just now') {
-                    return '刚刚';
-                }
-
-                if (d[0] === 'a') {
-                    d = '1';
-                } // a, an 修改为 1
-
-                var dt = {second: '秒', minute: '分钟', hour: '小时', day: '天', month: '个月', year: '年'};
-
-                return d + ' ' + dt[t] + '之前';
-            }],
-
-            // 仓库删除提示
-            [/Your repository "([^"]+)"was successfully deleted\./, "您的 \"$1\"仓库已被成功删除。"],
-            // 邮箱验证提示
-            [/An email containing verification instructions was sent to (.+)\./, "验证邮件已发送到 $1。"],
-            // 头像下面的注册信息
-            [/Joined on/, "注册于"],
+        "regexp": [ 
         ],
     },
 
