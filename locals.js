@@ -250,7 +250,8 @@ I18N.zh = {
             "Repositories": "你的仓库",
             "New": "新建",
             "Show more": "显示更多",
-            "Loding more": "正在加载",
+
+            "Working with a team?": "以团队方式工作?",
 
 
 
