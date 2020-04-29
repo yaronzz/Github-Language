@@ -222,7 +222,7 @@ I18N.zh = {
         ],
     },
 
-    "page-dashboard": { // 已登录的首页
+    "page-responsive": { // 已登录的首页
         "static": { // 静态翻译
             // 新手帮助
             "Learn Git and GitHub without any code!": "了解 Git 和 GitHub 无需任何代码！",
@@ -306,7 +306,7 @@ I18N.zh = {
             "Overview": "概述",
             "Repositories": "仓库",
             "Public activity": "动态",
-            "Edit profile": "修改设置TEST",
+            "Edit profile": "修改设置",
             "Popular repositories": "流行的仓库",
             "Pinned repositories": "固定的仓库",
             "Customize your pinned repositories": "自定义您的固定仓库",
