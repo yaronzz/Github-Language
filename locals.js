@@ -334,6 +334,7 @@ I18N.zh = {
             //点击新建组织
             "Choose a plan": "选择其中一项",
             "Pick a plan for your team": "为你的团队选择一个计划",
+
             "Free": "免费",
             "The basics of GitHub for every team": "每个Github团队都有的基本功能",
             "Unlimited public/private repositories": "无限的公/私仓库",
@@ -343,12 +344,35 @@ I18N.zh = {
             "500MB of GitHub Packages": "500M的Github包",
             "Community Support": "社区支持",
             "Join for free": "免费创建",
+            "Tell us about your organization": "请输入你的组织信息",
+            "Set up your team": "创建你的团队",
+            "Organization account name": "组织账户名称",
+            "This will be the name of your account on GitHub.": "这是你在Github的账号名",
+            "Your URL will be:": "你的地址是:",
+            "Contact email": "邮箱",
+            "This organization belongs to:": "此组织属于:",
+            "My personal account": "个人所有",
+            "A business or institution": "企业或机构",
+
             "Team": "团队",
-            "Enterprise": "专业",
+            "Advanced collaboration and support for teams": "优秀的协作开发和团队支持",
+            "Everything in Free": "一切免费",
+            "Team": "团队",
+            "3,000 Actions minutes/month": "每个月3000次操作",
+            "2GB of GitHub Packages": "2G的Github包",
+            "per user/month": "每个用户每个月",
+            "Continue with Team": "以团队创建",
+            
+            "Enterprise": "企业",
+            "Security, compliance, and flexible deployment for enterprises": "企业级安全性，合理性和灵活部署功能",
+            "SAML single sign-on": "SAML单点登录",
+            "50,000 Actions minutes/month": "每个月50,000次操作",
+            "50GB of GitHub Packages": "50G的Github包",
+            "Advanced auditing": "高级审核功能",
+            "Start Enterprise trial": "开始试用",
 
         },
         "regexp": [ // 正则翻译
-            [/Explore more (\d+)/, "浏览更多"],
         ],
     },
 
