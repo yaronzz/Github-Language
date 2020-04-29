@@ -4,7 +4,7 @@ I18N.conf = {
     /**
      * 要翻译的页面正则
      */
-    rePageClass: /\b(vis-public|page-(responsive|profile|account|new-repo|create-org)|homepage|signup|session-authentication|oauth)\b/,
+    rePageClass: /\b(page-responsive page-profile|vis-public|page-(responsive|profile|account|new-repo|create-org)|homepage|signup|session-authentication|oauth)\b/,
 
     /**
      * 匹配 pathname 页面的正则
@@ -252,11 +252,11 @@ I18N.zh = {
         ],
     },
 
-    // 登录GITHUB之后的网页
+    // 首页
     "page-responsive": { 
         "static": { 
             // 左侧栏
-            "Repositories": "你的仓库",
+            "Repositories": "仓库",
             "New": "新建",
             "Show more": "显示更多",
             "Working with a team?": "以团队方式工作?",
@@ -287,6 +287,9 @@ I18N.zh = {
             "Join for free": "免费创建",
             "Team": "团队",
             "Enterprise": "专业",
+
+
+
         },
         "regexp": [ // 正则翻译
             [/Show (\d+) more repositories…/, "显示 $1 个更多的仓库…"],
@@ -294,7 +297,7 @@ I18N.zh = {
     },
 
     // 个人主页
-    "page-profile": { 
+    "page-responsive page-profile": { 
         "static": { // 静态翻译
             "Updating your profile with your name, location, and a profile picture helps other GitHub users get to know you.": "更新您的资料信息包括姓名，地址，头像等资料，让其他用户更容易的了解您。",
 
