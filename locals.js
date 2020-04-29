@@ -142,23 +142,28 @@ I18N.zh = {
             "Type:": "类型:",
             "Language": "语言",
             "Language:": "语言:",
+
+            "Sort": "排序",
+            "Newest": "最新的",
+            "Oldest": "最老的",
+            "Name": "名字",
+
+            //常用短语
+            "Find a repository…": "搜索仓库…",
             "Select type:": "选择类型:",
             "Select type": "选择类型",
             "Select language:": "选择语言:",
             "Select language": "选择语言",
             "All languages": "所有语言",
 
-            "Sort": "排序",
             "Sort by": "排序选项",
             "Recently starred": "最近关注的",
             "Recently active": "最近活动的",
             "Most stars": "最多赞的",
-            "Newest": "最新的",
-            "Oldest": "最老的",
             "Recently updated": "最近更新的",
             "Least recently updated": "最久更新的",
-            "Name": "按名字排序",
             "Learn More": "查看更多",
+
 
             // 未登录部分
             "Personal": "个人",
@@ -312,6 +317,7 @@ I18N.zh = {
     "page-responsive": {
         "static": {
             // 左侧栏
+            "Find a repository...": "显示更多",
             "Show more": "显示更多",
             "Working with a team?": "以团队方式工作?",
             "GitHub is built for collaboration. Set up an organization to improve the way your team works together, and get access to more features.": "GitHub是为团队协作而构建的。建立组织来实现团队合作，并获得更多功能!",
@@ -319,10 +325,8 @@ I18N.zh = {
 
             // 右侧栏
             "Explore repositories": "浏览别人的仓库",
-
             // 中央栏
             "started following you": "开始关注你",
-
             // 底下栏
             "Subscribe to your news feed": "订阅",
             "ProTip!": "提示",
@@ -344,7 +348,7 @@ I18N.zh = {
 
         },
         "regexp": [ // 正则翻译
-            [/Show (\d+) more repositories…/, "显示 $1 个更多的仓库…"],
+            [/Explore more (\d+)/, "浏览更多"],
         ],
     },
 
@@ -429,7 +433,6 @@ I18N.zh = {
             "commented on issue": "提交了评论",
 
             // 仓库 tab
-            "Find a repository…": "搜索仓库…",
             "Select type": "选择类型",
             "Block or report": "阻止或举报",
             "Learn more about blocking a user.": "查看详细的阻止用户信息。",
