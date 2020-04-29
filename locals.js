@@ -246,15 +246,31 @@ I18N.zh = {
     "page-responsive": { // 首页
         "static": { // 静态翻译
 
-            //右侧栏
+            //左侧栏
             "Repositories": "你的仓库",
             "New": "新建",
             "Show more": "显示更多",
 
-            "Working with a team?": "以团队方式工作?",
+            "Working with a team": "以团队方式工作",
+            "GitHub is built for collaboration. Set up an organization to improve the way your team works together, and get access to more features": "GitHub是为团队协作而构建的。建立组织以改善团队合作的方式，并获得更多功能",
+            "Create an organization": "新建组织",
 
+            //右侧栏
+            "Explore repositories": "浏览别人的仓库",
+            "Explore more": "浏览更多",
 
+            //中央栏
+            "starred": "点赞了",
+            "forked": "派生了",
+            "Unstar": "取消赞",
+            "started following you": "开始关注你",
+            "More": "更多",
 
+            //底下栏
+            "Subscribe to your news feed": "订阅",
+            "ProTip! The feed shows you events from people you follow and repositories you watch.": "提示！该栏显示了你关注的人和仓库的动态信息。",
+            
+            
             // 新手帮助
             "Learn Git and GitHub without any code!": "了解 Git 和 GitHub 无需任何代码！",
             "Using the Hello World guide, you’ll create a repository, start a branch,": "使用 Hello World 指南，您将创建一个仓库，开始一个分支，",
