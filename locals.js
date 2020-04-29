@@ -276,9 +276,18 @@ I18N.zh = {
             //点击新建组织
             "Choose a plan": "选择其中一项",
             "Pick a plan for your team": "为你的团队选择一个计划",
+            "Free": "免费",
+            "The basics of GitHub for every team": "每个Github团队都有的基本功能",
+            "Unlimited public/private repositories": "无限的公私仓库",
+            "Unlimited collaborators": "无限的合作者",
+            "2,000 Actions minutes/month": "每个月2000次操作",
+            "Free for public repositories": "公有仓库免费",
+            "500MB of GitHub Packages": "500M的Github包",
+            "Community Support": "社区支持",
+            "Join for free": "免费创建",
 
-
-
+            "Team": "团队",
+            "Enterprise": "专业",
 
 
 
