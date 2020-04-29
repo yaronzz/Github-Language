@@ -93,8 +93,32 @@ I18N.zh = {
             //// "Help": "帮助",
 
             //时间
+            "today": "今天",
             "yesterday": "昨天",
-            "days ago": "天前",
+            "January": "一月",
+            "February": "二月",
+            "March": "三月",
+            "April": "四月",
+            "May": "五月",
+            "June": "六月",
+            "July": "七月",
+            "August": "八月",
+            "September": "九月",
+            "October": "十月",
+            "November": "十一月",
+            "December": "十二月",
+            "Jan": "1月",
+            "Feb": "2月",
+            "Mar": "3月",
+            "Apr": "4月",
+            "May": "5月",
+            "Jun": "6月",
+            "Jul": "7月",
+            "Aug": "8月",
+            "Sep": "9月",
+            "Oct": "10月",
+            "Nov": "11月",
+            "Dec": "12月",
         },
         "regexp": [ 
         ],
@@ -165,18 +189,8 @@ I18N.zh = {
             "Pinned": "固定显示的仓库",
             "Contribution settings": "贡献设置",
             "Contribution activity": "贡献信息",
-            "January": "一月",
-            "February": "二月",
-            "March": "三月",
-            "April": "四月",
-            "May": "五月",
-            "June": "六月",
-            "July": "七月",
-            "August": "八月",
-            "September": "九月",
-            "October": "十月",
-            "November": "十一月",
-            "December": "十二月",
+            "Edit pinned items": "编辑固定的仓库",
+            
 
 
 
@@ -192,6 +206,9 @@ I18N.zh = {
 
 
             
+
+
+
             "Joined on": "注册于",
             "Organizations": "组织",
             "Contributions": "贡献",
@@ -205,25 +222,10 @@ I18N.zh = {
             "Repositories you contribute to": "您贡献过的仓库",
             "Save pinned repositories": "保存固定仓库",
 
-            "Jan": "1月",
-            "Feb": "2月",
-            "Mar": "3月",
-            "Apr": "4月",
-            "May": "5月",
-            "Jun": "6月",
-            "Jul": "7月",
-            "Aug": "8月",
-            "Sep": "9月",
-            "Oct": "10月",
-            "Nov": "11月",
-            "Dec": "12月",
+
+
 
             
-
-            "Mon": "周一",
-            "Wed": "周三",
-            "Fri": "周五",
-
             "Includes contributions from private repositories you can access.": "您可以访问包括私人仓库。",
             "Summary of pull requests, issues opened, and commits.": "包括 拉取请求, 提问, 提交.",
             "Learn how we count contributions": "您想知道如何计算贡献的吗",
