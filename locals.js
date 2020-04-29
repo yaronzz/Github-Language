@@ -54,10 +54,10 @@ I18N.zh = {
         "static": { // 静态翻译
 
             // 搜索框
-            "Search or jump to": "搜索或跳转到",
+            "Search or jump to...": "搜索或跳转到",
 
             // 最上方页面选项
-            "Pull Requests": "拉取请求",
+            "Pull requests": "拉取请求",
             "Issues": "问题",
             "Marketplace": "广场",
             "Explore": "探索",
