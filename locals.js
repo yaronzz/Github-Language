@@ -189,24 +189,29 @@ I18N.zh = {
             "Pinned": "固定显示的仓库",
             "Contribution settings": "贡献设置",
             "Contribution activity": "贡献信息",
-            "Edit pinned items": "编辑固定的仓库",
-            
-
-
-
-
-
-            // 其他
-            "Jump to": "跳转到",
+            "Show more activity": "显示更多",
             "First pull request": "第一次拉取请求",
             "First issue": "第一次提问",
             "First repository": "第一个仓库",
             "Joined GitHub": "刚注册 GitHub",
-            "Show more activity": "显示更多",
 
+            // 仓库tab
+            "Find a repository…": "搜索仓库…",
+            "Type:": "类型:",
+            "select type": "选择类型",
+            "All": "全部",
+            "Public": "公共",
+            "Private": "私有",
+            "Sources": "源码",
+            "Forks": "派生",
+            "Archived": "归档",
+            "Mirrors": "镜像",
+            "Language:": "语言:",
+            "Select language": "选择语言",
+            "New": "新建",
 
-            
-
+            "Star": "点赞",
+            "Unstar": "取消点赞",
 
 
             "Joined on": "注册于",
@@ -269,14 +274,7 @@ I18N.zh = {
             "commented on issue": "提交了评论",
 
             // 仓库 tab
-            "Find a repository…": "搜索仓库…",
-            "All": "全部",
-            "Public": "公共",
-            "Private": "私有",
-            "Sources": "源码",
-            "Forks": "派生",
-            "Mirrors": "镜像",
-            "New": "新建",
+
 
             "Block or report": "阻止或举报",
             "Learn more about blocking a user.": "查看详细的阻止用户信息。",
@@ -288,10 +286,8 @@ I18N.zh = {
 
             "Search repositories…": "搜索这些查库…",
             "Search starred repositories…": "搜索点赞的仓库…",
-            "Type:": "类型:",
             "Select type:": "选择类型:",
-            "Language:": "语言:",
-            "Select language:": "选择语言:",
+  
             "All languages": "所有语言",
 
             "Sort:": "排序:",
@@ -299,7 +295,6 @@ I18N.zh = {
             "Recently starred": "最近关注的",
             "Recently active": "最近活动的",
             "Most stars": "最多赞的",
-            "Unstar": "取消点赞",
 
         },
         "regexp": [ // 正则翻译
