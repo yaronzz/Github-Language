@@ -148,6 +148,10 @@ I18N.zh = {
             "Oldest": "最老的",
             "Name": "名字",
 
+            "Unlimited": "无限制",
+
+            
+
             //常用短语
             "Find a repository…": "搜索仓库…",
             "Select type:": "选择类型:",
@@ -164,7 +168,10 @@ I18N.zh = {
             "Least recently updated": "最久更新的",
             "Learn More": "查看更多",
 
+            "Public repositories": "公共仓库",
+            "Private repositories": "私有仓库",
 
+            
             // 未登录部分
             "Personal": "个人",
             "Open source": "开源",
@@ -332,7 +339,7 @@ I18N.zh = {
             "ProTip!": "提示",
 
             //点击新建组织
-            "Choose a plan": "选择其中一项",
+            "Choose a plan": "请选择其中一项",
             "Pick a plan for your team": "为你的团队选择一个计划",
 
             "Free": "免费",
@@ -360,7 +367,7 @@ I18N.zh = {
             "Team": "团队",
             "3,000 Actions minutes/month": "每个月3000次操作",
             "2GB of GitHub Packages": "2G的Github包",
-            "per user/month": "每个用户每个月",
+            "per user/month": "每个用户/每个月",
             "Continue with Team": "以团队创建",
             
             "Enterprise": "企业",
@@ -371,6 +378,26 @@ I18N.zh = {
             "Advanced auditing": "高级审核功能",
             "Start Enterprise trial": "开始试用",
 
+            
+            "Compare features": "功能比较",
+            "Code management": "代码管理",
+            "Code workflow": "代码工作流程",
+            "Github Actions": "Github操作",
+            "Github Packages": "Github包",
+            "Code reviews": "代码审查",
+            "Protected branches": "分支保护",
+            "Draft pull requests": "草稿拉取请求",
+            "Collaboration": "合作",
+            "Security and compliance": "安全与规范",
+            "Marketplace and integrations": "市场与整合",
+            "Support and deployment": "支持与部署",
+
+
+            "Up to org size": "取决于组织规模",
+            "Enterprise Cloud": "企业云",
+            "Enterprise Server": "企业服务",
+            "Available": "可用的",
+            "Premium Support": "高级支持",
         },
         "regexp": [ // 正则翻译
         ],
