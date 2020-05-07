@@ -4,7 +4,7 @@ I18N.conf = {
     /**
      * 要翻译的页面正则
      */
-    rePageClass: /\b(page-responsive page-profile|page-responsive min-width-lg|page-(responsive|account|new-repo|create-org)|homepage|signup|session-authentication|oauth)\b/,
+    rePageClass: /\b(page-responsive page-profile|min-width-lg|page-(responsive|account|new-repo|create-org)|homepage|signup|session-authentication|oauth)\b/,
 
     /**
      * 匹配 pathname 页面的正则
@@ -804,7 +804,7 @@ I18N.zh = {
     },
 
     // "vis-public": { // 仓库页
-    "page-responsive min-width-lg|": { // 仓库页
+    "min-width-lg|": { // 仓库页
         "static": { // 静态翻译
             // 导入仓库 第二页
             "Preparing your new repository": "准备新的存储库",
