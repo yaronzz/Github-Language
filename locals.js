@@ -4,7 +4,7 @@ I18N.conf = {
     /**
      * 要翻译的页面正则
      */
-    rePageClass: /\b(page-responsive page-profile|vis-public|page-(responsive|account|new-repo|create-org)|homepage|signup|session-authentication|oauth)\b/,
+    rePageClass: /\b(page-responsive page-profile|page-responsive min-width-lg|page-(responsive|account|new-repo|create-org)|homepage|signup|session-authentication|oauth)\b/,
 
     /**
      * 匹配 pathname 页面的正则
@@ -149,6 +149,11 @@ I18N.zh = {
             "Name": "名字",
 
             "Unlimited": "无限制",
+            "Insights": "统计",
+            "Code": "代码",
+            "Wiki": "文档",
+            "Actions": "操作",
+            "Edit": "编辑",
 
             
 
@@ -170,6 +175,7 @@ I18N.zh = {
 
             "Public repositories": "公共仓库",
             "Private repositories": "私有仓库",
+
 
             
             // 未登录部分
@@ -334,7 +340,7 @@ I18N.zh = {
             "Explore repositories": "浏览别人的仓库",
             // 中央栏
             "started following you": "开始关注你",
-            "Recent activity ": "最近动态",
+            "Recent activity": "最近动态",
             "All activity": "全部动态",
 
             // 底下栏
@@ -797,7 +803,8 @@ I18N.zh = {
         ],
     },
 
-    "vis-public": { // 仓库页
+    // "vis-public": { // 仓库页
+    "page-responsive min-width-lg|": { // 仓库页
         "static": { // 静态翻译
             // 导入仓库 第二页
             "Preparing your new repository": "准备新的存储库",
@@ -825,6 +832,7 @@ I18N.zh = {
             "Save": "保存",
             "or": "或",
             "Cancel": "取消",
+            "Manage topics": "编辑标签",
 
             // 关注通知设置
             "Notifications": "通知类型",
