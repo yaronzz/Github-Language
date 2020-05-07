@@ -334,7 +334,7 @@ I18N.zh = {
             "Explore repositories": "浏览别人的仓库",
             // 中央栏
             "started following you": "开始关注你",
-            "Recent activity": "最近动态",
+            "Recent activity ": "最近动态",
             "All activity": "全部动态",
 
             // 底下栏
