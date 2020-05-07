@@ -803,7 +803,6 @@ I18N.zh = {
         ],
     },
 
-    // "vis-public": { // 仓库页
     "min-width-lg": { // 仓库页
         "static": { // 静态翻译
             // 导入仓库 第二页
@@ -853,6 +852,7 @@ I18N.zh = {
             "contributors": "个贡献者",
             "Copy to clipboard": "复制到剪切板",
             "Copied!": "复制成功!",
+            "packages": "个包",
 
             "Your recently pushed branches:": "您最近推送的分支:",
             "(less than a minute ago)": "不到一分钟前",
