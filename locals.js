@@ -804,7 +804,7 @@ I18N.zh = {
     },
 
     // "vis-public": { // 仓库页
-    "min-width-lg|": { // 仓库页
+    "min-width-lg": { // 仓库页
         "static": { // 静态翻译
             // 导入仓库 第二页
             "Preparing your new repository": "准备新的存储库",
