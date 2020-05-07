@@ -334,6 +334,9 @@ I18N.zh = {
             "Explore repositories": "浏览别人的仓库",
             // 中央栏
             "started following you": "开始关注你",
+            "Recent activity": "最近动态",
+            "All activity": "全部动态",
+
             // 底下栏
             "Subscribe to your news feed": "订阅",
             "ProTip!": "提示",
@@ -353,6 +356,7 @@ I18N.zh = {
             "Join for free": "免费创建",
             "Tell us about your organization": "请输入你的组织信息",
             "Set up your team": "创建你的团队",
+            "Set up your Team": "创建你的团队",
             "Organization account name": "组织账户名称",
             "This will be the name of your account on GitHub.": "这是你在Github的账号名",
             "Your URL will be:": "你的地址是:",
@@ -369,6 +373,7 @@ I18N.zh = {
             "2GB of GitHub Packages": "2G的Github包",
             "per user/month": "每个用户/每个月",
             "Continue with Team": "以团队创建",
+            "Next: Payment details": "下一页：支付细节",
             
             "Enterprise": "企业",
             "Security, compliance, and flexible deployment for enterprises": "企业级安全性，合理性和灵活部署功能",
@@ -382,8 +387,8 @@ I18N.zh = {
             "Compare features": "功能比较",
             "Code management": "代码管理",
             "Code workflow": "代码工作流程",
-            "Github Actions": "Github操作",
-            "Github Packages": "Github包",
+            "GitHub Actions": "Github操作",
+            "GitHub Packages": "Github包",
             "Code reviews": "代码审查",
             "Protected branches": "分支保护",
             "Draft pull requests": "草稿拉取请求",
