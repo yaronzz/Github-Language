@@ -55,7 +55,7 @@ I18N.zh = {
         "static": {
 
             // 最上方页面选项
-            "Pull requests": "拉取请求",
+            "Pull requests": "代码合并请求",
             "Issues": "问题",
             "Marketplace": "广场",
             "Explore": "探索",
@@ -70,8 +70,10 @@ I18N.zh = {
             "Your projects": "你的项目面板",
             "Your stars": "你的点赞",
             "Your gists": "你的代码片段",
+            "Your organizations": "你的组织",
             "Feature preview": "功能预览",
             "Help": "帮助",
+            "Upgrade": "升级",
             "Settings": "设置",
             "Sign out": "退出",
 
@@ -335,6 +337,8 @@ I18N.zh = {
             "Working with a team?": "以团队方式工作?",
             "GitHub is built for collaboration. Set up an organization to improve the way your team works together, and get access to more features.": "GitHub是为团队协作而构建的。建立组织来实现团队合作，并获得更多功能!",
             "Create an organization": "新建组织",
+            "Yout teams": "你的团队",
+            "You don’t belong to any teams yet!": "你还不属于任何一个团队！",
 
             // 右侧栏
             "Explore repositories": "浏览别人的仓库",
@@ -397,7 +401,7 @@ I18N.zh = {
             "GitHub Packages": "Github包",
             "Code reviews": "代码审查",
             "Protected branches": "分支保护",
-            "Draft pull requests": "草稿拉取请求",
+            "Draft pull requests": "草稿代码合并请求",
             "Collaboration": "合作",
             "Security and compliance": "安全与规范",
             "Marketplace and integrations": "市场与整合",
@@ -447,7 +451,7 @@ I18N.zh = {
             "Repositories you contribute to": "您贡献过的仓库",
             "Save pinned repositories": "保存固定仓库",
 
-
+            "Activity overview":"动态浏览",
 
 
             "Mon": "周一",
@@ -455,7 +459,7 @@ I18N.zh = {
             "Fri": "周五",
 
             "Includes contributions from private repositories you can access.": "您可以访问包括私人仓库。",
-            "Summary of pull requests, issues opened, and commits.": "包括 拉取请求, 提问, 提交.",
+            "Summary of pull requests, issues opened, and commits.": "包括 代码合并请求, 提问, 提交.",
             "Learn how we count contributions": "您想知道如何计算贡献的吗",
             "Less": "少",
             "More": "多",
@@ -475,8 +479,8 @@ I18N.zh = {
             "Visitors will now see your public and anonymized private contributions.": "访客将看到您的公共和匿名的私人贡献。",
 
             "commits": "次提交",
-            "Pull Request": "拉取请求",
-            "Pull Requests": "拉取请求",
+            "Pull Request": "代码合并请求",
+            "Pull Requests": "代码合并请求",
             "Issue reported": "问题报告",
             "Issues reported": "问题报告",
 
@@ -513,7 +517,7 @@ I18N.zh = {
         "regexp": [ // 正则翻译
             [/Created (\d+)[\s\r\n]+commits? in[\s\r\n]+(\d+)[\s\r\n]+repositor(y|ies)/, "在 $2 个库中创建了 $1 次提交"],
             [/Created (\d+)[\s\r\n]+repositor(y|ies)/, "创建了 $1 个仓库"],
-            [/Opened (\d+)[\s\r\n]+other[\s\r\n]+pull requests?/, "发起了 $1 个拉取请求"],
+            [/Opened (\d+)[\s\r\n]+other[\s\r\n]+pull requests?/, "发起了 $1 个代码合并请求"],
             [/Opened (\d+)[\s\r\n]+other[\s\r\n]+issues/, "开了 $1 个其他问题"],
             [/(\d+) commits?/, "$1 次提交"],
             [/Pushed (\d+) commits? to/, "推送了 $1 次提交到"],
@@ -819,7 +823,18 @@ I18N.zh = {
             "Code": "代码",
             "Pulse": "统计",
             "Graphs": "图表",
-            "Projects": "项目",
+            "Projects": "安排",
+            "Clone":"克隆",
+            "Add file": "添加文件",
+            "Creat new file": "添加新文件",
+            "Upload files": "上传文件",
+            "Go to file": "查找文件",
+            "Latest release": "上次发布",
+            "Contributors": "贡献者",
+            "Releases": "发布",
+            "Environments": "环境",
+            "Save changes": "保存修改",
+            "Cancel": "取消",
 
             // 仓库描述编辑
             "No description or website provided.": "没有提供说明和网站信息.",
@@ -927,9 +942,9 @@ I18N.zh = {
             "Comment": "提交",
 
             "Filters": "筛选",
-            "Open issues and pull requests": "开放的问题或拉取请求",
+            "Open issues and pull requests": "开放的问题或代码合并请求",
             "Your issues": "您提出的问题",
-            "Your pull requests": "您的拉取请求",
+            "Your pull requests": "您的代码合并请求",
             "Everything assigned to you": "任何关于您的",
             "Everything mentioning you": "提及您的",
             "View advanced search syntax": "查看高级搜索语法",
@@ -994,7 +1009,7 @@ I18N.zh = {
             "Create a": "创建",
             "new branch": "新分支",
             "for this commit and start a pull request.": "为这个提交，并且发起一个拉取请求。",
-            "Learn more about pull requests.": "了解更多拉取请求。",
+            "Learn more about pull requests.": "了解更多代码合并请求。",
 
             // Find file 页面
             "You’ve activated the": "您已激活",
@@ -1007,10 +1022,10 @@ I18N.zh = {
 
             // 拉取请求信息提示
             "Your recently pushed branches:": "你最近推送的分支:",
-            "Compare & pull request": "比较 & 拉取请求",
+            "Compare & pull request": "比较 & 代码合并请求",
 
             // Pull Requests 页面
-            "There aren’t any open pull requests.": "暂无拉取请求。",
+            "There aren’t any open pull requests.": "暂无代码合并请求。",
             "There aren’t any open issues.": "暂无开放的问题。",
             "Use the links above to find what you’re looking for, or try": "使用上面的链接来找到您要找的，或者尝试",
             "a new search query": "新的搜索查询",
